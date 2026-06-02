@@ -1,4 +1,4 @@
- *, *::before, *::after { 
+*, *::before, *::after { 
     box-sizing: border-box;
     margin: 0; 
     padding: 0; }
@@ -22,6 +22,7 @@
     color: var(--black);
     font-family: "Epilogue", sans-serif;
     font-weight: 300;
+    font-size: 16px;
     overflow-x: hidden;
   }
  
@@ -102,7 +103,7 @@
  
   /* JUNHO VIOLETA */
   .section-junho {
-    padding: 120px 80px 100px;
+    padding: 100px 80px 100px;
     background: var(--white);
     position: relative; overflow: hidden;
   }
@@ -154,10 +155,11 @@
 
   .junho-heading {
     font-family: "Space Mono", monospace;
-    font-size: clamp(44px, 7vw, 96px);
+    font-size: 40px;
     font-weight: 700; 
     line-height: 1.05; 
     letter-spacing: -0.03em;
+    word-spacing: -0.15em;
   }
 
   .junho-heading em {
@@ -230,7 +232,7 @@
 
   .junho-pillar h3 {
     font-family: "Space Mono", monospace; 
-    font-size: 11px; 
+    font-size: 16px; 
     font-weight: 700;
     letter-spacing: 0.06em; 
     text-transform: uppercase; 
@@ -238,7 +240,7 @@
     margin-bottom: 12px;
   }
 
-  .junho-pillar p { font-size: 13px; 
+  .junho-pillar p { font-size: 16px; 
     line-height: 1.65; 
     color: #555; }
  
@@ -299,7 +301,7 @@
   }
   .direitos-heading {
     font-family: "Space Mono", monospace;
-    font-size: clamp(44px, 6vw, 88px);
+    font-size: 40px;
     font-weight: 700; line-height: 1.05; letter-spacing: -0.03em;
     color: var(--black); margin: 28px 0 32px;
   }
@@ -360,7 +362,7 @@
 
   .direito-card h3 {
     font-family: "Space Mono", monospace;
-    font-size: 11px; 
+    font-size: 16px; 
     font-weight: 700; 
     letter-spacing: 0.06em; 
     text-transform: uppercase;
@@ -370,7 +372,7 @@
   }
 
   .direito-card p {
-    font-size: 13px; 
+    font-size: 16px; 
     line-height: 1.65; 
     color: #555; 
     margin-bottom: 20px;
@@ -465,5 +467,3 @@
       max-width: 100%;
     }
   }
- 
-    
